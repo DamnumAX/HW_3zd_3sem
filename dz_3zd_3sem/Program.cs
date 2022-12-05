@@ -4,7 +4,7 @@
 5 -> 1, 8, 27, 64, 125
 */
 
-double inputInt ()
+int inputInt ()
 {
 Console.WriteLine("Введите число: ");
 bool isNum = int.TryParse(Console.ReadLine(), out int num);
@@ -41,6 +41,7 @@ void PrintArray (int [] arr)
         Console.WriteLine($"{arr[a]} ");
         
     }
+    Console.WriteLine();
 }
 
 PrintArray(tableSq);
